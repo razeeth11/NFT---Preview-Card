@@ -1,6 +1,10 @@
 body{
   font-family: 'Inter', sans-serif;
   background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .preview-card{
@@ -9,7 +13,6 @@ body{
   border-radius: 10px;
   box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.605);
   background-color: hsl(216, 51%, 16%);
-  margin: 50px auto;
   position: relative;
 }
 
