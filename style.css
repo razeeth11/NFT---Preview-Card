@@ -1,0 +1,112 @@
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.preview-card{
+  max-width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.605);
+  background-color: hsl(216, 51%, 16%);
+  margin: 50px auto;
+  position: relative;
+}
+
+.div-one img {
+  width: 280px;
+  border-radius: 5px;
+}
+
+.preview-card:hover .icon-view {
+   display: block;
+   cursor: pointer;
+}
+
+.icon-view {
+  position: absolute;
+  background-color: hsla(178, 100%, 50%, 0.4);
+  top: 15px;
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+  display: none;
+}
+
+.icon-view img{
+  position: relative;
+  top: 115px;
+  left: 115px;
+}
+
+
+.div-one p{
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1{
+  color: white;
+  font-weight: 600;
+}
+
+.profile img{
+  width: 25px;
+  height: 25px;
+  border: 1.5px solid white;
+  border-radius: 50px;
+}
+
+.div-two{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.eq img{
+  width: 10px;
+  height: 15px;
+}
+
+.eq p{
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+
+.eq{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.days{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.days p{
+  color: hsl(215, 51%, 70%);
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: hsl(215, 51%, 70%);
+}
+
+hr{
+ opacity: 0.2;
+}
+
+.name{
+  color: white;
+}
+
+.name:hover, .div-one h1:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
